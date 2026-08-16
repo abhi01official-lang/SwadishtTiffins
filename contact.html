@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
   <meta charset="UTF-8">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,15 +12,7 @@
     content="Contact Swadisht Tiffin Service in Meerut for daily tiffins, monthly plans and catering services."
   >
 
-  <meta
-    name="keywords"
-    content="Swadisht Tiffin Service, Tiffin Service Meerut, Meerut Tiffin, Contact Swadisht Tiffin"
-  >
-
-  <meta name="author" content="Swadisht Tiffin Service">
-
   <title>Contact Us - Swadisht Tiffin Service</title>
-
 
   <!-- Tailwind CSS -->
   <link
@@ -27,26 +20,20 @@
     rel="stylesheet"
   >
 
-
   <style>
 
     html {
       scroll-behavior: smooth;
     }
 
-    .contact-card {
-      backdrop-filter: blur(8px);
-      -webkit-backdrop-filter: blur(8px);
+    .whatsapp-float {
+      animation: pulse 2s infinite;
     }
 
-    .whatsapp-button {
-      animation: whatsappPulse 2s infinite;
-    }
-
-    @keyframes whatsappPulse {
+    @keyframes pulse {
 
       0% {
-        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.6);
       }
 
       70% {
@@ -64,12 +51,12 @@
 </head>
 
 
-<body class="bg-gray-900">
+<body class="bg-gray-900 text-gray-400">
 
 
-<!-- ========================================================= -->
+<!-- ===================================================== -->
 <!-- HEADER -->
-<!-- ========================================================= -->
+<!-- ===================================================== -->
 
 <header class="text-gray-400 bg-gray-900 body-font border-b border-gray-800">
 
@@ -83,10 +70,9 @@
       class="flex title-font font-medium items-center text-white mb-4 md:mb-0"
     >
 
-      <!-- Image is in the MAIN/ROOT folder -->
       <img
         src="swadisht.jpeg"
-        alt="Swadisht Tiffin Service Meerut"
+        alt="Swadisht Tiffin Service"
         class="w-10 h-10 rounded-full object-cover"
       >
 
@@ -103,28 +89,28 @@
 
       <a
         href="index.html"
-        class="mr-5 hover:text-green-400 transition"
+        class="mr-5 hover:text-green-400"
       >
         Home
       </a>
 
       <a
         href="about.html"
-        class="mr-5 hover:text-green-400 transition"
+        class="mr-5 hover:text-green-400"
       >
         About Us
       </a>
 
       <a
         href="corporate.html"
-        class="mr-5 hover:text-green-400 transition"
+        class="mr-5 hover:text-green-400"
       >
         Corporate Catering
       </a>
 
       <a
         href="menu.html"
-        class="mr-5 hover:text-green-400 transition"
+        class="mr-5 hover:text-green-400"
       >
         Menu
       </a>
@@ -139,13 +125,13 @@
     </nav>
 
 
-    <!-- ENROLL NOW BUTTON -->
+    <!-- ENROLL NOW -->
 
     <a href="menu.html">
 
       <button
         type="button"
-        class="inline-flex items-center bg-gray-800 border-0 py-2 px-4 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
+        class="inline-flex items-center bg-gray-800 border-0 py-2 px-4 hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
       >
 
         Enroll Now
@@ -174,16 +160,16 @@
 
 
 
-<!-- ========================================================= -->
+<!-- ===================================================== -->
 <!-- CONTACT SECTION -->
-<!-- ========================================================= -->
+<!-- ===================================================== -->
 
-<section class="relative text-gray-400 bg-gray-900 body-font min-h-screen">
+<section class="relative bg-gray-900 min-h-screen">
 
 
-  <!-- MAP BACKGROUND -->
+  <!-- MAP -->
 
-  <div class="absolute inset-0 overflow-hidden">
+  <div class="absolute inset-0">
 
     <iframe
       title="Swadisht Tiffin Service Location"
@@ -192,48 +178,44 @@
       frameborder="0"
       scrolling="no"
       loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
       src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d895062.9289464592!2d77.1707153!3d28.7989531!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c65debef5a101%3A0xfd78b563a5efd770!2sSwadisht%20Tiffin%20Service!5e0!3m2!1sen!2sin!4v1768757144247!5m2!1sen!2sin"
       style="
         border:0;
         filter:grayscale(1) contrast(1.2);
-        opacity:0.18;
+        opacity:0.15;
       "
-    >
-    </iframe>
+    ></iframe>
 
   </div>
 
 
-  <!-- MAP DARK OVERLAY -->
+  <!-- DARK OVERLAY -->
 
-  <div class="absolute inset-0 bg-gray-900 opacity-60"></div>
-
-
-  <!-- CONTACT CONTENT -->
-
-  <div class="container px-5 py-20 mx-auto flex relative z-10">
+  <div class="absolute inset-0 bg-gray-900 opacity-70"></div>
 
 
-    <!-- CONTACT CARD -->
+
+  <!-- CONTENT -->
+
+  <div class="container px-5 py-20 mx-auto relative z-10">
+
 
     <div
-      class="w-full lg:w-1/3 md:w-1/2 bg-gray-900 bg-opacity-95 rounded-xl p-8 shadow-2xl contact-card"
+      class="w-full lg:w-1/3 md:w-1/2 bg-gray-900 rounded-xl p-8 shadow-2xl"
     >
 
 
       <!-- HEADING -->
 
-      <h1 class="text-white text-3xl mb-2 font-bold">
+      <h1 class="text-white text-3xl font-bold mb-2">
         Contact Us
       </h1>
 
 
-      <p class="leading-relaxed mb-6 text-gray-400">
+      <p class="text-gray-400 mb-6 leading-relaxed">
 
-        Have a question, want to order a tiffin,
-        or need catering services?
-        Contact Swadisht Tiffin Service today.
+        Have a question or want to order a tiffin?
+        Send us a message directly on WhatsApp.
 
       </p>
 
@@ -244,7 +226,7 @@
       <div class="mb-6">
 
         <h2 class="text-white font-semibold mb-1">
-          📍 Our Location
+          📍 Address
         </h2>
 
         <p class="text-gray-400">
@@ -258,75 +240,68 @@
 
 
 
-      <!-- CONTACT INFORMATION -->
+      <!-- PHONE -->
 
       <div class="mb-6">
 
-        <h2 class="text-white font-semibold mb-2">
-          📞 Contact Information
+        <h2 class="text-white font-semibold mb-1">
+          📞 Phone
         </h2>
 
-
-        <p class="mb-2">
-
-          <strong class="text-white">
-            Phone:
-          </strong>
-
-          <a
-            href="tel:+918057228822"
-            class="text-green-400 hover:text-green-300"
-          >
-            +91 8057228822
-          </a>
-
-        </p>
-
-
-        <p>
-
-          <strong class="text-white">
-            Email:
-          </strong>
-
-          <a
-            href="mailto:swadishtswadgharjaisa@gmail.com"
-            class="text-green-400 hover:text-green-300 break-all"
-          >
-            swadishtswadgharjaisa@gmail.com
-          </a>
-
-        </p>
+        <a
+          href="tel:+918057228822"
+          class="text-green-400 hover:text-green-300"
+        >
+          +91 8057228822
+        </a>
 
       </div>
 
 
 
-      <!-- ===================================================== -->
-      <!-- WHATSAPP CONTACT FORM -->
-      <!-- ===================================================== -->
+      <!-- EMAIL -->
 
-      <form onsubmit="sendToWhatsApp(event)">
+      <div class="mb-6">
+
+        <h2 class="text-white font-semibold mb-1">
+          ✉️ Email
+        </h2>
+
+        <a
+          href="mailto:swadishtswadgharjaisa@gmail.com"
+          class="text-green-400 hover:text-green-300 break-all"
+        >
+          swadishtswadgharjaisa@gmail.com
+        </a>
+
+      </div>
+
+
+
+      <!-- ================================================= -->
+      <!-- CONTACT FORM -->
+      <!-- ================================================= -->
+
+      <div>
 
 
         <!-- NAME -->
 
-        <div class="relative mb-4">
+        <div class="mb-4">
 
           <label
-            for="name"
-            class="leading-7 text-sm text-gray-400"
+            for="customerName"
+            class="block text-sm text-gray-400 mb-1"
           >
             Name
           </label>
 
           <input
-            id="name"
+            id="customerName"
             type="text"
-            required
-            autocomplete="name"
             placeholder="Enter your name"
-            class="w-full bg-gray-800 rounded border border-gray-700 focus:border-green-500 focus:ring-2 focus:ring-green-900 text-base outline-none text-gray-100 py-2 px-3"
+            autocomplete="name"
+            class="w-full bg-gray-800 border border-gray-700 rounded-lg text-white py-3 px-4 outline-none focus:border-green-500"
           >
 
         </div>
@@ -335,25 +310,22 @@
 
         <!-- PHONE -->
 
-        <div class="relative mb-4">
+        <div class="mb-4">
 
           <label
-            for="phone"
-            class="leading-7 text-sm text-gray-400"
+            for="customerPhone"
+            class="block text-sm text-gray-400 mb-1"
           >
             Phone Number
           </label>
 
           <input
-            id="phone"
+            id="customerPhone"
             type="tel"
-            required
-            maxlength="10"
-            minlength="10"
-            inputmode="numeric"
+            placeholder="Enter your phone number"
             autocomplete="tel"
-            placeholder="10-digit mobile number"
-            class="w-full bg-gray-800 rounded border border-gray-700 focus:border-green-500 focus:ring-2 focus:ring-green-900 text-base outline-none text-gray-100 py-2 px-3"
+            inputmode="numeric"
+            class="w-full bg-gray-800 border border-gray-700 rounded-lg text-white py-3 px-4 outline-none focus:border-green-500"
           >
 
         </div>
@@ -362,22 +334,21 @@
 
         <!-- EMAIL -->
 
-        <div class="relative mb-4">
+        <div class="mb-4">
 
           <label
-            for="email"
-            class="leading-7 text-sm text-gray-400"
+            for="customerEmail"
+            class="block text-sm text-gray-400 mb-1"
           >
             Email
           </label>
 
           <input
-            id="email"
+            id="customerEmail"
             type="email"
-            required
-            autocomplete="email"
             placeholder="Enter your email"
-            class="w-full bg-gray-800 rounded border border-gray-700 focus:border-green-500 focus:ring-2 focus:ring-green-900 text-base outline-none text-gray-100 py-2 px-3"
+            autocomplete="email"
+            class="w-full bg-gray-800 border border-gray-700 rounded-lg text-white py-3 px-4 outline-none focus:border-green-500"
           >
 
         </div>
@@ -386,60 +357,60 @@
 
         <!-- MESSAGE -->
 
-        <div class="relative mb-5">
+        <div class="mb-5">
 
           <label
-            for="message"
-            class="leading-7 text-sm text-gray-400"
+            for="customerMessage"
+            class="block text-sm text-gray-400 mb-1"
           >
             Message
           </label>
 
           <textarea
-            id="message"
-            required
-            placeholder="How can we help you?"
-            class="w-full bg-gray-800 rounded border border-gray-700 focus:border-green-500 focus:ring-2 focus:ring-green-900 h-32 text-base outline-none text-gray-100 py-2 px-3 resize-none"
+            id="customerMessage"
+            rows="5"
+            placeholder="Write your message..."
+            class="w-full bg-gray-800 border border-gray-700 rounded-lg text-white py-3 px-4 outline-none focus:border-green-500 resize-none"
           ></textarea>
 
         </div>
 
 
 
-        <!-- SEND MESSAGE BUTTON -->
+        <!-- ================================================= -->
+        <!-- WHATSAPP BUTTON -->
+        <!-- ================================================= -->
 
         <button
-          type="submit"
-          class="w-full text-white bg-green-600 border-0 py-3 px-6 focus:outline-none hover:bg-green-700 rounded-lg text-lg font-semibold transition"
+          type="button"
+          onclick="sendWhatsApp()"
+          class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg text-lg transition"
         >
 
           💬 Send Message on WhatsApp
 
         </button>
 
-      </form>
+
+        <!-- CALL BUTTON -->
+
+        <a
+          href="tel:+918057228822"
+          class="block text-center w-full bg-gray-800 hover:bg-gray-700 text-white font-semibold py-3 px-6 rounded-lg mt-3 transition"
+        >
+
+          📞 Call Us
+
+        </a>
 
 
-
-      <!-- CALL BUTTON -->
-
-      <a
-        href="tel:+918057228822"
-        class="block text-center mt-4 w-full bg-gray-800 hover:bg-gray-700 text-white py-3 rounded-lg transition"
-      >
-
-        📞 Call Us Directly
-
-      </a>
+      </div>
 
 
-      <!-- COPYRIGHT -->
-
-      <p class="text-xs text-gray-500 mt-5 text-center">
-
+      <p class="text-xs text-gray-500 mt-6 text-center">
         © 2026 Swadisht Tiffin Service
-
       </p>
+
 
     </div>
 
@@ -449,418 +420,186 @@
 
 
 
-<!-- ========================================================= -->
+<!-- ===================================================== -->
 <!-- FOOTER -->
-<!-- ========================================================= -->
+<!-- ===================================================== -->
 
-<footer class="text-gray-400 bg-gray-900 body-font border-t border-gray-800">
-
-
-  <div
-    class="container px-5 py-16 mx-auto flex md:items-start lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col"
-  >
+<footer class="bg-gray-900 border-t border-gray-800 text-gray-400">
 
 
-    <!-- BRAND -->
+  <div class="container mx-auto px-5 py-16">
 
-    <div
-      class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left"
-    >
 
-      <a
-        href="index.html"
-        class="flex title-font font-medium items-center md:justify-start justify-center text-white"
-      >
+    <div class="flex flex-wrap">
 
-        <!-- ROOT FOLDER IMAGE -->
 
-        <img
-          src="swadisht.jpeg"
-          alt="Swadisht Tiffin Service"
-          class="w-10 h-10 rounded-full object-cover"
+      <!-- BRAND -->
+
+      <div class="w-full md:w-1/3 mb-10">
+
+        <a
+          href="index.html"
+          class="flex items-center text-white"
         >
 
-        <span class="ml-3 text-xl">
-          Swadisht Tiffin Service
-        </span>
+          <img
+            src="swadisht.jpeg"
+            alt="Swadisht Tiffin Service"
+            class="w-10 h-10 rounded-full object-cover"
+          >
 
-      </a>
+          <span class="ml-3 text-xl font-semibold">
+            Swadisht Tiffin Service
+          </span>
 
-
-      <p class="mt-2 text-sm text-gray-500">
-
-        Best Quality Food At Best Price Only At Swadisht
-
-      </p>
-
-    </div>
+        </a>
 
 
+        <p class="mt-3 text-sm text-gray-500">
 
-    <!-- FOOTER COLUMNS -->
+          Best Quality Food At Best Price Only At Swadisht
 
-    <div
-      class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 text-center md:text-left"
-    >
+        </p>
+
+      </div>
+
 
 
       <!-- USEFUL LINKS -->
 
-      <div class="lg:w-1/3 md:w-1/2 w-full px-4">
+      <div class="w-full md:w-1/3 mb-10">
 
-        <h2
-          class="title-font font-medium text-white tracking-widest text-sm mb-3"
-        >
+        <h2 class="text-white font-medium mb-4">
           USEFUL LINKS
         </h2>
 
 
-        <nav class="list-none mb-10">
+        <a
+          href="about.html"
+          class="block mb-2 hover:text-white"
+        >
+          About Us
+        </a>
 
 
-          <li class="mb-2">
-
-            <a
-              href="about.html"
-              class="text-gray-400 hover:text-white transition"
-            >
-              About Us
-            </a>
-
-          </li>
+        <a
+          href="corporate.html"
+          class="block mb-2 hover:text-white"
+        >
+          Bulk Orders
+        </a>
 
 
-          <li class="mb-2">
-
-            <a
-              href="corporate.html"
-              class="text-gray-400 hover:text-white transition"
-            >
-              Bulk Orders
-            </a>
-
-          </li>
+        <a
+          href="terms.html"
+          class="block mb-2 hover:text-white"
+        >
+          Terms & Conditions
+        </a>
 
 
-          <li class="mb-2">
-
-            <a
-              href="terms.html"
-              class="text-gray-400 hover:text-white transition"
-            >
-              Terms & Conditions
-            </a>
-
-          </li>
-
-
-          <li class="mb-2">
-
-            <a
-              href="privacy.html"
-              class="text-gray-400 hover:text-white transition"
-            >
-              Privacy Policy
-            </a>
-
-          </li>
-
-
-        </nav>
+        <a
+          href="privacy.html"
+          class="block mb-2 hover:text-white"
+        >
+          Privacy Policy
+        </a>
 
       </div>
 
 
 
-      <!-- CATERING SERVICES -->
+      <!-- CONTACT -->
 
-      <div class="lg:w-1/3 md:w-1/2 w-full px-4">
+      <div class="w-full md:w-1/3 mb-10">
 
-        <h2
-          class="title-font font-medium text-white tracking-widest text-sm mb-3"
-        >
-          CATERING SERVICES
-        </h2>
-
-
-        <nav class="list-none mb-10">
-
-
-          <li class="mb-2">
-
-            <a
-              href="corporate.html"
-              class="text-gray-400 hover:text-white transition"
-            >
-              Corporate Catering
-            </a>
-
-          </li>
-
-
-          <li class="mb-2">
-
-            <a
-              href="corporate.html"
-              class="text-gray-400 hover:text-white transition"
-            >
-              Special Events - Meerut
-            </a>
-
-          </li>
-
-
-          <li class="mb-2">
-
-            <a
-              href="corporate.html"
-              class="text-gray-400 hover:text-white transition"
-            >
-              Family Events
-            </a>
-
-          </li>
-
-
-          <li class="mb-2">
-
-            <a
-              href="corporate.html"
-              class="text-gray-400 hover:text-white transition"
-            >
-              Kitty Party
-            </a>
-
-          </li>
-
-
-          <li class="mb-2">
-
-            <a
-              href="corporate.html"
-              class="text-gray-400 hover:text-white transition"
-            >
-              Packed Meal Trays & Snack Boxes
-            </a>
-
-          </li>
-
-
-          <li class="mb-2">
-
-            <a
-              href="corporate.html"
-              class="text-gray-400 hover:text-white transition"
-            >
-              Food For 10-200 People
-            </a>
-
-          </li>
-
-
-        </nav>
-
-      </div>
-
-
-
-      <!-- CONTACT US -->
-
-      <div class="lg:w-1/3 md:w-1/2 w-full px-4">
-
-        <h2
-          class="title-font font-medium text-white tracking-widest text-sm mb-3"
-        >
+        <h2 class="text-white font-medium mb-4">
           CONTACT US
         </h2>
 
 
-        <nav class="list-none mb-10">
+        <a
+          href="tel:+918057228822"
+          class="block mb-2 hover:text-white"
+        >
+          📞 +91-8057228822
+        </a>
 
 
-          <li class="mb-2">
-
-            <span class="text-gray-500 text-sm">
-              MOBILE NUMBER
-            </span>
-
-          </li>
-
-
-          <li class="mb-4">
-
-            <a
-              href="tel:+918057228822"
-              class="text-gray-400 hover:text-white"
-            >
-              +91-8057228822
-            </a>
-
-          </li>
-
-
-          <li class="mb-2">
-
-            <span class="text-gray-500 text-sm">
-              EMAIL ID
-            </span>
-
-          </li>
-
-
-          <li>
-
-            <a
-              href="mailto:swadishtswadgharjaisa@gmail.com"
-              class="text-gray-400 hover:text-white break-all"
-            >
-              swadishtswadgharjaisa@gmail.com
-            </a>
-
-          </li>
-
-
-        </nav>
+        <a
+          href="mailto:swadishtswadgharjaisa@gmail.com"
+          class="block break-all hover:text-white"
+        >
+          ✉️ swadishtswadgharjaisa@gmail.com
+        </a>
 
       </div>
 
 
     </div>
 
-  </div>
-
-
-
-  <!-- ===================================================== -->
-  <!-- COPYRIGHT + SOCIAL MEDIA -->
-  <!-- ===================================================== -->
-
-  <div
-    class="container mx-auto px-5 py-5 border-t border-gray-800 flex flex-col sm:flex-row items-center justify-between"
-  >
 
 
     <!-- COPYRIGHT -->
 
-    <p class="text-gray-400 text-sm text-center sm:text-left">
+    <div
+      class="border-t border-gray-800 pt-5 flex flex-col sm:flex-row justify-between items-center"
+    >
 
-      © 2026
+      <p class="text-sm">
 
-      <span class="text-white font-medium">
-        Swadisht Tiffin Service
-      </span>
+        © 2026
+        <span class="text-white">
+          Swadisht Tiffin Service
+        </span>
+        . All rights reserved.
 
-      . All rights reserved.
-
-    </p>
-
-
-
-    <!-- SOCIAL ICONS -->
-
-    <div class="flex space-x-5 mt-4 sm:mt-0">
+      </p>
 
 
-      <!-- YOUTUBE -->
 
-      <a
-        href="https://www.youtube.com/@swadishtswadgharjaisa"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="YouTube"
-        class="text-gray-400 hover:text-red-500 transition"
-      >
+      <!-- SOCIAL -->
 
-        <svg
-          class="w-6 h-6"
-          fill="currentColor"
-          viewBox="0 0 24 24"
+      <div class="flex space-x-5 mt-4 sm:mt-0">
+
+
+        <!-- YOUTUBE -->
+
+        <a
+          href="https://www.youtube.com/@swadishtswadgharjaisa"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="hover:text-red-500"
         >
-
-          <path
-            d="M23.5 6.2s-.2-1.7-.8-2.4c-.8-.9-1.7-.9-2.1-1C17.7 2.5 12 2.5 12 2.5s-5.7 0-8.6.3c-.4.1-1.3.1-2.1 1-.6.7-.8 2.4-.8 2.4S0 8.1 0 10v1.9c0 1.9.2 3.8.2 3.8s.2 1.7.8 2.4c.8.9 1.9.9 2.4 1 1.7.2 7.2.3 7.2.3s5.7 0 8.6-.3c.4-.1 1.3-.1 2.1-1 .6-.7.8-2.4.8-2.4s.2-1.9.2-3.8V10c0-1.9-.2-3.8-.2-3.8zM9.5 14.8V7.9l6.3 3.5-6.3 3.4z"
-          />
-
-        </svg>
-
-      </a>
+          YouTube
+        </a>
 
 
+        <!-- INSTAGRAM -->
 
-      <!-- WHATSAPP -->
-
-      <a
-        href="https://wa.me/918057228822"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="WhatsApp"
-        class="text-gray-400 hover:text-green-500 transition"
-      >
-
-        <svg
-          class="w-6 h-6"
-          fill="currentColor"
-          viewBox="0 0 24 24"
+        <a
+          href="https://www.instagram.com/swadisht_tiffin_service/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="hover:text-pink-500"
         >
-
-          <path
-            d="M20.52 3.48A11.8 11.8 0 0012.02 0C5.39 0 0 5.39 0 12c0 2.12.55 4.2 1.6 6.04L0 24l6.17-1.62A11.94 11.94 0 0012 24c6.63 0 12-5.39 12-12 0-3.2-1.25-6.2-3.48-8.52z"
-          />
-
-        </svg>
-
-      </a>
+          Instagram
+        </a>
 
 
+        <!-- WHATSAPP -->
 
-      <!-- INSTAGRAM -->
-
-      <a
-        href="https://www.instagram.com/swadisht_tiffin_service/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Instagram"
-        class="text-gray-400 hover:text-pink-500 transition"
-      >
-
-        <svg
-          class="w-6 h-6"
-          fill="currentColor"
-          viewBox="0 0 24 24"
+        <a
+          href="https://wa.me/918057228822"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="hover:text-green-500"
         >
-
-          <path
-            d="M12 2.2c3.2 0 3.6 0 4.85.07 1.17.06 1.97.24 2.43.4.61.24 1.05.52 1.51.98.46.46.74.9.98 1.51.16.46.34 1.26.4 2.43.07 1.25.07 1.65.07 4.85s0 3.6-.07 4.85c-.06 1.17-.24 1.97-.4 2.43-.24.61-.52 1.05-.98 1.51-.46.46-.9.74-1.51.98-.46.16-1.26.34-2.43.4-1.25.07-1.65.07-4.85.07s-3.6 0-4.85-.07c-1.17-.06-1.97-.24-2.43-.4a3.77 3.77 0 01-1.51-.98 3.77 3.77 0 01-.98-1.51c-.16-.46-.34-1.26-.4-2.43C2.2 15.6 2.2 15.2 2.2 12s0-3.6.07-4.85c.06-1.17.24-1.97.4-2.43.24-.16 1.05-.52 1.51-.98.46-.46.9-.74 1.51-.98.46-.16 1.26-.34 2.43-.4C8.4 2.2 8.8 2.2 12 2.2z"
-          />
-
-        </svg>
-
-      </a>
+          WhatsApp
+        </a>
 
 
-
-      <!-- CALL -->
-
-      <a
-        href="tel:+918057228822"
-        aria-label="Call"
-        class="text-gray-400 hover:text-blue-400 transition"
-      >
-
-        <svg
-          class="w-6 h-6"
-          fill="currentColor"
-          viewBox="0 0 24 24"
-        >
-
-          <path
-            d="M22 16.92v3a2 2 0 01-2.18 2A19.8 19.8 0 013.1 4.18 2 2 0 015.1 2h3a2 2 0 012 1.72c.12.9.32 1.77.59 2.6a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.48-1.48a2 2 0 012.11-.45c.83.27 1.7.47 2.6.59A2 2 0 0122 16.92z"
-          />
-
-        </svg>
-
-      </a>
-
+      </div>
 
     </div>
 
@@ -870,87 +609,88 @@
 
 
 
-<!-- ========================================================= -->
+<!-- ===================================================== -->
 <!-- FLOATING CHAT WITH US BUTTON -->
-<!-- ========================================================= -->
+<!-- ===================================================== -->
 
 <a
   href="https://wa.me/918057228822?text=Hello%20Swadisht%20Tiffin%20Service%2C%20I%20want%20to%20know%20more%20about%20your%20tiffin%20service."
   target="_blank"
   rel="noopener noreferrer"
-  aria-label="Chat with Swadisht Tiffin Service on WhatsApp"
-  class="whatsapp-button fixed bottom-5 right-5 z-50 flex items-center gap-3 bg-green-600 hover:bg-green-700 text-white font-semibold px-5 py-3 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-105"
+  class="whatsapp-float fixed bottom-5 right-5 z-50 bg-green-600 hover:bg-green-700 text-white font-bold px-5 py-3 rounded-full shadow-2xl flex items-center transition"
 >
 
-
-  <!-- WHATSAPP ICON -->
-
-  <svg
-    class="w-6 h-6"
-    fill="currentColor"
-    viewBox="0 0 24 24"
-  >
-
-    <path
-      d="M20.52 3.48A11.8 11.8 0 0012.02 0C5.39 0 0 5.39 0 12c0 2.12.55 4.2 1.6 6.04L0 24l6.17-1.62A11.94 11.94 0 0012 24c6.63 0 12-5.39 12-12 0-3.2-1.25-6.2-3.48-8.52z"
-    />
-
-  </svg>
-
+  <span class="text-xl mr-2">
+    💬
+  </span>
 
   <span>
     Chat With Us
   </span>
 
-
 </a>
 
 
 
-<!-- ========================================================= -->
-<!-- WHATSAPP FORM JAVASCRIPT -->
-<!-- ========================================================= -->
+<!-- ===================================================== -->
+<!-- WHATSAPP JAVASCRIPT -->
+<!-- ===================================================== -->
 
 <script>
 
-function sendToWhatsApp(event) {
+function sendWhatsApp() {
 
-  /*
-    Stop the normal form submission.
-    This keeps the user on the website
-    until we create the WhatsApp message.
-  */
-
-  event.preventDefault();
-
-
-  // Get form values
+  /* Get values from the fields */
 
   var name =
-    document.getElementById("name").value.trim();
+    document.getElementById("customerName").value.trim();
 
   var phone =
-    document.getElementById("phone").value.trim();
+    document.getElementById("customerPhone").value.trim();
 
   var email =
-    document.getElementById("email").value.trim();
+    document.getElementById("customerEmail").value.trim();
 
   var message =
-    document.getElementById("message").value.trim();
+    document.getElementById("customerMessage").value.trim();
 
 
 
-  // Validate Indian mobile number
+  /* Check Name */
 
-  var phonePattern =
-    /^[6-9][0-9]{9}$/;
+  if (name === "") {
+
+    alert("Please enter your name.");
+
+    document.getElementById("customerName").focus();
+
+    return;
+
+  }
 
 
-  if (!phonePattern.test(phone)) {
 
-    alert(
-      "Please enter a valid 10-digit Indian mobile number."
-    );
+  /* Check Phone */
+
+  if (phone === "") {
+
+    alert("Please enter your phone number.");
+
+    document.getElementById("customerPhone").focus();
+
+    return;
+
+  }
+
+
+
+  /* Check Message */
+
+  if (message === "") {
+
+    alert("Please enter your message.");
+
+    document.getElementById("customerMessage").focus();
 
     return;
 
@@ -959,15 +699,116 @@ function sendToWhatsApp(event) {
 
 
   /*
-    Create the WhatsApp message.
+    Remove spaces, +, -, brackets etc.
+    This allows users to enter:
+    8057228822
+    +91 8057228822
+    80572-28822
+  */
+
+  var cleanPhone =
+    phone.replace(/[^0-9]/g, "");
+
+
+
+  /*
+    If user enters +91 number,
+    remove 91 from the beginning.
+  */
+
+  if (
+    cleanPhone.length === 12 &&
+    cleanPhone.substring(0, 2) === "91"
+  ) {
+
+    cleanPhone =
+      cleanPhone.substring(2);
+
+  }
+
+
+
+  /* Validate Indian mobile number */
+
+  if (
+    cleanPhone.length !== 10 ||
+    !/^[6-9][0-9]{9}$/.test(cleanPhone)
+  ) {
+
+    alert(
+      "Please enter a valid 10-digit Indian mobile number."
+    );
+
+    document.getElementById("customerPhone").focus();
+
+    return;
+
+  }
+
+
+
+  /*
+    Create WhatsApp message
   */
 
   var whatsappMessage =
     "Hello Swadisht Tiffin Service! 👋\n\n" +
 
-    "I want to contact you regarding your " +
-    "tiffin/catering service.\n\n" +
+    "I want to contact you regarding your tiffin service.\n\n" +
 
-    "Name: " + name + "\n" +
+    "Name: " +
+    name +
+    "\n" +
 
-    "Phone: "
+    "Phone: " +
+    cleanPhone +
+    "\n" +
+
+    "Email: " +
+    (email === "" ? "Not provided" : email) +
+    "\n\n" +
+
+    "Message:\n" +
+    message;
+
+
+
+  /*
+    Convert message into URL format
+  */
+
+  var encodedMessage =
+    encodeURIComponent(whatsappMessage);
+
+
+
+  /*
+    YOUR WHATSAPP NUMBER
+
+    India = 91
+    Number = 8057228822
+
+    IMPORTANT:
+    Do NOT put + sign here.
+  */
+
+  var whatsappURL =
+    "https://wa.me/918057228822?text=" +
+    encodedMessage;
+
+
+
+  /*
+    Open WhatsApp
+  */
+
+  window.location.assign(whatsappURL);
+
+}
+
+</script>
+
+
+</body>
+
+</html>
